@@ -9,21 +9,21 @@ const Navbar = () => {
       <Link
         to="/"
         onClick={() => setShow(!show)}
-        className=" pr-[25px] focus:outline-none transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white rounded font-medium   px-5 py-2 text-xs"
+        className=" pr-[25px] focus:outline-none transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white rounded font-medium   px-5 py-2 "
       >
         Home
       </Link>
       <Link
         to="/signup"
         onClick={() => setShow(!show)}
-        className=" pr-[25px] focus:outline-none  transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white  rounded font-medium  px-5 py-2 text-xs"
+        className=" pr-[25px] focus:outline-none  transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white  rounded font-medium  px-5 py-2 "
       >
        SIgn Up
       </Link>
       <Link
         to="/login"
         onClick={() => setShow(!show)}
-        className=" pr-[25px] focus:outline-none -gray-300  transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white  rounded font-medium  px-5 py-2 text-xs"
+        className=" pr-[25px] focus:outline-none -gray-300  transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white  rounded font-medium  px-5 py-2 "
       >
         Login
       </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 {/* lg------end-section ------- */}
                 <Link to="/contacts" className="hidden xl:flex items-center ">
                   <div className="relative md:mr-6 my-2">
-                    <button className="focus:outline-none  border-gray-300 border transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white rounded font-medium  px-5 py-2 text-xs">
+                    <button className="focus:outline-none  border-gray-300 border transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white rounded font-medium  px-5 py-2 ">
                       Contact
                     </button>
                   </div>
@@ -76,7 +76,7 @@ const Navbar = () => {
             <div className="flex items-center  p-2 ">
               <div
                 id="menu"
-                className="text-gray-800 bg-slate-600"
+                className="text-gray-500 bg-slate-600"
                 onClick={() => setShow(!show)}
               >
                 {show ? (
@@ -84,14 +84,17 @@ const Navbar = () => {
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="icon icon-tabler icon-tabler-menu-2"
+                    className="icon  icon-tabler icon-tabler-menu-2"
                     width="42"
+                    
                     height="42"
+                  
                     style={{
                       //   border: "2px solid white",
                       padding: "3px 3px",
                       borderRadius: "60px",
                       fontSize: "40px",
+                      
                     }}
                     color="white"
                     viewBox="0 0 24 24"
@@ -123,14 +126,14 @@ const Navbar = () => {
               className=" opacity-50 w-full h-full"
               onClick={() => setShow(!show)}
             />
-            <div className="w-64 z-40 fixed overflow-y-auto top-0 shadow-2xl h-[100%] flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out  ">
+            <div className="w-64 z-40 fixed overflow-y-auto top-0 shadow-2xl h-[100%] flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out bg-slate-300  ">
               <div className="px-6 h-full">
                 <div className="flex flex-col justify-between h-full w-full  ">
                   <div>
                     <div className="mt-6 flex w-full items-center justify-between">
                       <div className="flex items-center justify-between w-full">
                         <div className="flex items-center">
-                          <p className="text-base md:text-2xl ">Choose Menu</p>
+                          <p className="text-2xl font-bold fonts">Choose Menu</p>
                         </div>
                         <div
                           id="cross"
