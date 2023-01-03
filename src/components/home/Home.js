@@ -1,9 +1,13 @@
 import React from 'react';
+import Hero1 from '../hero/Hero1';
+import Signup from '../Signup/Signup';
 
 const Home = () => {
     return (
-        <div>
-            <h1> This is Home</h1>
+        <div className='container mx-auto'>
+           <Hero1/>
+           <Signup/>
+          
             
         </div>
     );
