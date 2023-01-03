@@ -14,18 +14,18 @@ const Navbar = () => {
         Home
       </Link>
       <Link
-        to="/projectRoutes"
+        to="/signup"
         onClick={() => setShow(!show)}
         className=" pr-[25px] focus:outline-none  transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white  rounded font-medium  px-5 py-2 text-xs"
       >
-        Projects
+       SIgn Up
       </Link>
       <Link
-        to="/blogs"
+        to="/login"
         onClick={() => setShow(!show)}
         className=" pr-[25px] focus:outline-none -gray-300  transition duration-150 ease-in-out hover:bg-[#00ae87] hover:text-white  rounded font-medium  px-5 py-2 text-xs"
       >
-        Blogs
+        Login
       </Link>
     </React.Fragment>
   );
