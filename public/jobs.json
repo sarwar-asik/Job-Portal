@@ -3,6 +3,8 @@
         "name":"React Native Developer",
         "place":"New York",
         "type":"Full Time",
+        "company":"MDN Ltd",
+        "img":"https://img.freepik.com/free-photo/reduce-reuse-recycle-symbol-icon_53876-138174.jpg?size=626&ext=jpg&ga=GA1.1.537590259.1669397270&semt=sph",
         "time":"6",
         "details":"It is full time React Native developer Job . You can join this place by applying",
         "salary":"400",
@@ -11,7 +13,9 @@
     {
         "name":"Full Stack Developer",
         "place":"New York",
+        "company":"Dista IT",
         "type":"Full Time",
+        "img":"https://img.freepik.com/free-photo/company-co-business-logo-gold-emboss_53876-143192.jpg?size=626&ext=jpg&ga=GA1.1.537590259.1669397270&semt=sph",
         "time":"6",
         "details":"It is full time React Native developer Job . You can join this place by applying",
         "salary":"500",
@@ -20,7 +24,9 @@
     {
         "name":"Front-end developer Developer",
         "place":"New York",
+        "company":"A4 Tech",
         "type":"Part Time",
+        "img":"https://img.freepik.com/free-photo/3d-render-vs-company-metal-letter-logo-pen-tool-created-clipping-path-included-jpeg-easy-composite_460848-7192.jpg?size=626&ext=jpg&ga=GA1.2.537590259.1669397270&semt=sph",
         "time":"6",
         "details":"It is full time React Native developer Job . You can join this place by applying",
         "salary":"500",
@@ -30,7 +36,9 @@
         "name":"MERN Stack Developer",
         "place":"New York",
         "type":"Full Time",
+        "company":"Zinnah Ltd",
         "time":"6",
+        "img":"https://img.freepik.com/free-photo/homemade-cake-bakery-round-board-mockup_53876-65258.jpg?size=626&ext=jpg&ga=GA1.2.537590259.1669397270&semt=sph",
         "details":"It is full time React Native developer Job . You can join this place by applying",
         "salary":"450",
         "source":"Linkedin"
@@ -38,7 +46,9 @@
     {
         "name":"JavaScript  Developer",
         "place":"New York",
+        "company":"AEX Tech",
         "type":"Full Time",
+        "img":"https://img.freepik.com/free-photo/womens-day-8-march-space-your-text-3d-render-illustration-design_460848-10134.jpg?size=626&ext=jpg&ga=GA1.2.537590259.1669397270&semt=sph",
         "time":"6",
         "details":"It is full time React Native developer Job . You can join this place by applying",
         "salary":"450",
@@ -47,7 +57,9 @@
     {
         "name":"Backend Developer",
         "place":"New York",
+        "company":"Vychung IT ",
         "type":"Full Time",
+        "img":"https://img.freepik.com/free-photo/diet-health-nutrition-life-food-eating-concept_53876-120817.jpg?size=626&ext=jpg&ga=GA1.2.537590259.1669397270&semt=sph",
         "time":"6",
         "details":"It is full time React Native developer Job . You can join this place by applying",
         "salary":"450",
