@@ -6,12 +6,12 @@ const ServiceType = () => {
   const services = [
     {
       name: "Verified Jobs",
-      img: job,
+      img: "https://cdn-icons-png.flaticon.com/512/600/600297.png?w=740&t=st=1672927929~exp=1672928529~hmac=c889e92c7347973a168180d72faa45c5eba6dbed81426d452e18fb8b95855daa",
       details: " ",
     },
     {
       name: "Internship Opportunity",
-      img: intern,
+      img: "https://cdn-icons-png.flaticon.com/512/945/945603.png?w=740&t=st=1672928296~exp=1672928896~hmac=05caa09862c651dc33d85ab1ee1a38b55c502bad25b0413848d8e08ca9346636",
       details: "",
     },
     {
@@ -21,17 +21,22 @@ const ServiceType = () => {
     },
   ];
   return (
-    <div className="mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+   <div className=" mt-10">
+    <header>
+        <h2 className="fonts text-center text-[48px] font-bold font-serif"> Our Opportunities  </h2>
+        <p className="text-center mb-10 mt-3 text-2xl font-semibold"> We are giving our Client best than other site . All are trustful service for them . </p>
+    </header>
+     <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
       {services?.map((service) => {
         return (
-          <div className="shadow1 px-3 py-[70px] rounded-lg">
+          <div className="shadow1 shadow-2xl px-3 py-[60px] rounded-lg">
             <img
               src={service?.img}
               className="h-[120px] w-[90px] mb-3"
               alt=""
             />
             <h4 className="text-4xl font-serif fonts my-5">{service?.name} </h4>
-            <p className="text-slate-500">
+            <p className="text-slate-700">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
               quidem sed corrupti voluptate illo ullam consectetur eaque
               necessitatibus nostrum eligendi.
@@ -40,6 +45,7 @@ const ServiceType = () => {
         );
       })}
     </div>
+   </div>
   );
 };
 

@@ -1,0 +1,56 @@
+[
+    {
+        "name":"React Native Developer",
+        "place":"New York",
+        "type":"Full Time",
+        "time":"6",
+        "details":"It is full time React Native developer Job . You can join this place by applying",
+        "salary":"400",
+        "source":"Linkedin"
+    },
+    {
+        "name":"Full Stack Developer",
+        "place":"New York",
+        "type":"Full Time",
+        "time":"6",
+        "details":"It is full time React Native developer Job . You can join this place by applying",
+        "salary":"500",
+        "source":"Internshala"
+    },
+    {
+        "name":"Front-end developer Developer",
+        "place":"New York",
+        "type":"Part Time",
+        "time":"6",
+        "details":"It is full time React Native developer Job . You can join this place by applying",
+        "salary":"500",
+        "source":"Inded "
+    },
+    {
+        "name":"MERN Stack Developer",
+        "place":"New York",
+        "type":"Full Time",
+        "time":"6",
+        "details":"It is full time React Native developer Job . You can join this place by applying",
+        "salary":"450",
+        "source":"Linkedin"
+    },
+    {
+        "name":"JavaScript  Developer",
+        "place":"New York",
+        "type":"Full Time",
+        "time":"6",
+        "details":"It is full time React Native developer Job . You can join this place by applying",
+        "salary":"450",
+        "source":"Linkedin"
+    },
+    {
+        "name":"Backend Developer",
+        "place":"New York",
+        "type":"Full Time",
+        "time":"6",
+        "details":"It is full time React Native developer Job . You can join this place by applying",
+        "salary":"450",
+        "source":"Linkedin"
+    }
+]

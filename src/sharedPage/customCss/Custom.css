@@ -8,7 +8,19 @@
 }
 
 .shadow1 {
-  border-radius: 7px;
+  border-radius: 22px;
+  /* background: #e0e0e0;
+    box-shadow:  25px 25px 60px #898989,
+                 -25px -25px 60px #ffffff; */
+}
+.shadow1:hover {
+  border-radius: 16px;
   background: #e0e0e0;
-  box-shadow: inset 5px 5px 10px #d7d7d7, inset -5px -5px 10px #e9e9e9;
+  box-shadow: 5px 5px 0px #00ae87, -5px -5px 0px #ffffff;
+}
+.jobs:hover .apply {
+  background-color: #00ae87;
+  color: #ffffff;
+  transition: padding 1s ease-out;
+  padding-right:20px;
 }
