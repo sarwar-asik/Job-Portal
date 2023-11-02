@@ -41,7 +41,7 @@ const Login = () => {
               </label>
               <label className="label">
                 <a href="." className="">
-                  Already Sign Up ?
+                 Did not Registration ?
                 </a>
                 <Link to="/signup" className=" link link-hover">
                   Sign Up Please ..

@@ -12,17 +12,17 @@ const DetailModal = ({ job }) => {
   };
   return (
     <div>
-      <input type="checkbox" id="my-modal-6" className="modal-toggle" />
+      <input type="checkbox" id={job?.name} className="modal-toggle" />
       <div className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
                 <h1 className="text-slate-600 text-4xl mb-5 font-bold font-serif fonts"> Application Submit </h1>
               </div>
-              <div class="modal-body">
-                <form onSubmit={handleSumbmit}>
-                  <div class="mb-3">
+              <div className="modal-body">
+                <form onSubmit={handleSumbmit} >
+                  <div className="mb-3">
                     <label
                       for="recipient-name"
                       className="text-xl font-serif text-slate-500"
@@ -37,7 +37,7 @@ const DetailModal = ({ job }) => {
                       id="recipient-name"
                     />
                   </div>
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <label
                       for="recipient-name"
                       className="text-xl font-serif text-slate-500"
@@ -52,7 +52,7 @@ const DetailModal = ({ job }) => {
                       id="recipient-name"
                     />
                   </div>
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <label
                       for="recipient-name"
                       className="text-xl font-serif text-slate-500"
@@ -68,15 +68,15 @@ const DetailModal = ({ job }) => {
                     />
                   </div>
 
-                  <div className="modal-action" htmlFor="my-modal-6">
+                  <div className="modal-action" htmlFor={job?.name}>
                     <label
-                      htmlFor="my-modal-6"
+                      htmlFor={job?.name}
                       className="bg-slate-600 px-3 py-2 rounded text-white"
                     >
                       close
                     </label>
                     <input
-                      htmlFor="my-modal-6"
+                     htmlFor={job?.name}
                       className="btn1 py-2 px-3"
                       type="submit"
                       value={"Submit"}

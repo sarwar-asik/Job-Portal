@@ -1,10 +1,10 @@
 .btn1 {
-  background-color: #00ae87;
-  border-radius: 10px;
+  background-color: #087f65;
+  border-radius: 4px;
   color: aliceblue;
 }
 .fonts {
-  color: #00ae87;
+  color: #087f65;
 }
 
 .shadow1 {
@@ -16,16 +16,16 @@
 .shadow1:hover {
   border-radius: 16px;
   background: #e0e0e0;
-  box-shadow: 5px 5px 0px #00ae87, -5px -5px 0px #ffffff;
+  box-shadow: 5px 5px 0px #087f65, -5px -5px 0px #ffffff;
 }
 .jobs:hover .apply {
-  background-color: #00ae87;
+  background-color: #087f65;
   color: #ffffff;
   transition: padding 1s ease-out;
   padding-right: 20px;
 }
 .jobs:hover {
-  box-shadow: 5px 5px 0px #ffffff , -5px -5px 0px  #00ae87;
+  box-shadow: 5px 5px 0px #ffffff , -5px -5px 0px  #087f65;
   transition: box-shadow 600ms;
 }
 
